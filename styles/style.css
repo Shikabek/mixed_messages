@@ -1,0 +1,25 @@
+body {
+    background-color: slateblue;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#button_press_me {
+    background-color: antiquewhite;
+    color: midnightblue;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+#button_press_me:hover {
+    background-color: slateblue;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+#image {
+    max-width: 600px;
+}
